@@ -1,4 +1,4 @@
-# RNA-Seq Alignment with STAR (Dockerized)
+# RNA-Seq Alignment with STAR (Using Docker)
 
 This repository demonstrates a minimal working example of aligning RNA-Seq reads to a toy genome using [STAR](https://github.com/alexdobin/STAR) inside a Docker container.
 
