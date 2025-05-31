@@ -30,13 +30,13 @@ docker run --rm \
 
 ## Output Files
 After running the pipeline, the output/ directory will contain:
-  - Aligned.sortedByCoord.out.bam: Final aligned BAM file
-  - Log.out: STAR alignment log
-  - SJ.out.tab: Splice junction output (empty for toy example)
+  - ```Aligned.sortedByCoord.out.bam```: Final aligned BAM file
+  - ```Log.out```: STAR alignment log
+  - ```SJ.out.tab```: Splice junction output (empty for toy example)
 
 ## Notes
 - The FASTQ file must have equal-length sequence and quality lines
-- The GTF file must contain exon features with coordinates that match the FASTA reference
+- The GTF file must contain ```exon``` features with coordinates that match the FASTA reference
 - STAR is compiled and run inside the container using Ubuntu 20.04
 
 ## License
