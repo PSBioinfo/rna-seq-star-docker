@@ -2,14 +2,14 @@
 
 This repository demonstrates a minimal working example of aligning RNA-Seq reads to a toy genome using [STAR](https://github.com/alexdobin/STAR) inside a Docker container.
 
-## 🔧 Structure
+## Structure
 
 - `Dockerfile`: Installs STAR and dependencies
 - `scripts/run_star.sh`: Runs genome generation and alignment
 - `data/`: Toy genome, GTF, and FASTQ files
 - `output/`: Alignment results (not tracked by Git)
 
-## 🚀 Usage
+## Usage
 
 ```bash
 docker build -t star-docker .
