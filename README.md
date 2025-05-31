@@ -24,9 +24,9 @@ docker run --rm \
 
 
 ## Example Data
-- toy_genome.fa: A tiny artificial reference genome
-- toy_genes.gtf: A GTF annotation file with a single exon
-- sample.fastq: A single-end FASTQ file with 1 read
+- ```toy_genome.fa```: A tiny artificial reference genome
+- ```toy_genes.gtf```: A GTF annotation file with a single exon
+- ```sample.fastq```: A single-end FASTQ file with 1 read
 
 ## Output Files
 After running the pipeline, the output/ directory will contain:
