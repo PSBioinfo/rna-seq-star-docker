@@ -13,6 +13,7 @@ This repository demonstrates a minimal working example of aligning RNA-Seq reads
 
 ```bash
 docker build -t star-docker .
+```
 
 ### Run the STAR alignment
 docker run --rm \
