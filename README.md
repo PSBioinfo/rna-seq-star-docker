@@ -14,12 +14,13 @@ This repository demonstrates a minimal working example of aligning RNA-Seq reads
 ```bash
 docker build -t star-docker .
 
-# Run the STAR alignment
+### Run the STAR alignment
 docker run --rm \
   -v $(pwd)/output:/app/output \
   -v $(pwd)/data:/app/data \
   -v $(pwd)/scripts:/app/scripts \
   star-docker bash scripts/run_star.sh
+
 
 ## Example Data
 - toy_genome.fa: A tiny artificial reference genome
