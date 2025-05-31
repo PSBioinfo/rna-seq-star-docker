@@ -1,0 +1,8 @@
+output/
+*.bam
+*.sam
+*.log
+*.gz
+*.tar.gz
+*.out
+STAR*
